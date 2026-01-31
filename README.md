@@ -108,16 +108,16 @@ Customize your experience by editing the `config.json` file located in the insta
 No coding required.
 
 1.  Go to the **[Releases](../../releases)** page.
-2.  Download **`KeyboardOS-v1.0.zip`**.
-3.  Extract the ZIP file to a permanent location (e.g., `C:\Apps\KeyboardOS`).
-4.  Double-click **`KeyboardOS.exe`** to start.
+2.  Download **`Synapse-v1.0.zip`**.
+3.  Extract the ZIP file to a permanent location (e.g., `C:\Apps\Synapse`).
+4.  Double-click **`Synapse.exe`** to start.
 
 > **Note:** The "Everything" search engine is included. Please allow it to index your files on the first run for instant search results.
 
 ### Option 2: Run at Startup
 1.  Press <kbd>Win</kbd> + <kbd>R</kbd>.
 2.  Type `shell:startup` and hit <kbd>Enter</kbd>.
-3.  Right-click `KeyboardOS.exe` in your app folder and select **Create Shortcut**.
+3.  Right-click `Synapse.exe` in your app folder and select **Create Shortcut**.
 4.  Drag the shortcut into the **Startup** folder.
 
 ### Option 3: For Developers
@@ -125,7 +125,7 @@ If you want to modify the source code:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/KeyboardOS.git
+https://github.com/rajhodedara/Synapse.git
 
 # 2. Install dependencies
 pip install -r requirements.txt
