@@ -1,0 +1,7 @@
+PyQt6
+pywin32
+keyboard
+winsdk
+Pillow
+pyperclip
+pyinstaller
