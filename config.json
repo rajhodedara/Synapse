@@ -1,0 +1,111 @@
+{
+    "audio_devices": {
+        "head": "Headphones",
+        "spk": "Speakers",
+        "monitor": "DELL MONITOR" 
+    },
+    "theme": {
+        "bg": "#1e1e1e",           
+        "fg": "#00ff41",           
+        "entry_bg": "#2d2d2d",     
+        "entry_fg": "#ffffff",     
+        "select_bg": "#00ff41",    
+        "select_fg": "#000000",    
+        "font": "Consolas",        
+        "font_size": 14,
+        "width": 600,
+        "height": 60
+    },
+    "hotkeys": {
+        "alt+1": { "type": "url", "value": "https://chatgpt.com" },
+        "alt+2": { "type": "url", "value": "https://gemini.google.com" },
+        "alt+4": { "type": "url", "value": "https://claude.ai" },
+        "alt+3": { "type": "url", "value": "https://arena.ai/?mode=side-by-side" },
+        "alt+5": { "type": "url", "value": "https://music.youtube.com" },
+        
+        
+
+
+        
+        "alt+g": { 
+            "type": "smart_search", 
+            "value": "https://chatgpt.com/?q=" 
+        },
+        "alt+t": { 
+            "type": "smart_search", 
+            "value": "https://www.google.com/search?q=" 
+        }
+    },
+    "launcher_mapping": {
+        "gs":   { "type": "smart_search", "value": "https://www.google.com/search?q=" },
+        "perp": { "type": "smart_search", "value": "https://www.perplexity.ai/search?q=" },
+        "gpt": { "type": "smart_search", "value": "https://chatgpt.com/?q=" },
+
+        "lock": { "type": "sys", "value": "lock" },
+        "off":  { "type": "sys", "value": "shutdown" },
+        "zzz":  { "type": "sys", "value": "sleep" },
+        "kill": { "type": "sys", "value": "kill" },
+        "bin":  { "type": "sys", "value": "empty_bin" },
+        
+
+        "note": { 
+            "type": "note", 
+            "value": "note" 
+        },
+         
+        
+        "gh": { "type": "url", "value": "https://github.com" },
+        "anime": { 
+            "type": "search_selection", 
+            "value": [
+                { "label": "HiAnime(Recommended)", "url": "https://duckduckgo.com/?q=\\+site:hianime.to+" },
+                { "label": "AnimeKai(Recommended)", "url": "https://duckduckgo.com/?q=\\+site:animekai.to+" },
+                { "label": "Miruro", "url": "https://www.miruro.tv/search?query=" },
+                { "label": "AnimeUniqueStream", "url": "https://anime.uniquestream.net/search?q=" }
+                
+            ]
+        },
+        "movie": { 
+            "type": "search_selection", 
+            "value": [
+                { "label": "Aether", "url": "aether.mom/browse/" },
+                { "label": "Flixer", "url": "flixer.sh/search?q=" },
+                { "label": "Nepu", "url": "https://nepu.to/search/" },
+                { "label": "XPrime", "url": "https://xprime.today/search?query=" }
+                
+            ]
+        },
+        "download": { 
+            "type": "search_selection", 
+            "value": [
+                { "label": "AcerMovie (Manual)", "url": "https://acermovies.fun/#" },
+                { "label": "VegaMovies", "url": "https://vegamovies.gripe/?s=" },
+                { "label": "Vadapav (Manual)", "url": "https://vadapav.mov/#" },
+                { "label": "Ext (Torrent)", "url": "https://ext.to/browse/?q=" }
+            ]
+        },
+        "code": { 
+            "type": "file", 
+            "value": "%LOCALAPPDATA%/Programs/Microsoft VS Code/Code.exe" 
+        },
+        "spot": { 
+            "type": "file", 
+            "value": "%APPDATA%/Spotify/Spotify.exe" 
+        },
+        "obs": { 
+            "type": "file", 
+            "value": "%ProgramFiles%/obs-studio/bin/64bit/obs64.exe" 
+        },
+        "downloads": {
+            "type": "file",
+            "value": "%USERPROFILE%/Downloads"
+        },
+        "tr":   { "type": "smart_search", "value": "https://translate.google.com/?sl=auto&tl=en&text=" },
+        "def": { "type": "smart_search", "value": "https://www.google.com/search?q=define+" },
+        "ytm": { 
+            "type": "smart_search", 
+            "value": "https://music.youtube.com/search?q=" 
+        }
+    }
+    
+}
